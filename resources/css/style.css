@@ -75,5 +75,29 @@ a {
 
 .item span {
   display: block;
-  margin-top: 10px;
+  margin-top: 5px;
+}
+
+#locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 500px;
+  padding-top: 70px;
+  background-position: center;
+}
+.locations .flex-container {
+  margin: auto;
+  width: 1100px;
+}
+
+.location {
+  background-color: black;
+  opacity: 1;
+  margin: 5px 20px;
+  padding: 40px;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
